@@ -1,27 +1,18 @@
-# VoyageVista
+# grupo3_angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.1.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[the structure and description of project](https://github.com/alansastre/curso-frontend-angular/blob/main/proyectos/Proyectos.md)
+<p></p>
+<div style="display:flex; justify-content:center"><img src="https://thumbs.dreamstime.com/z/curvy-girl-latina-tattoos-arms-glasses-braid-brown-brunette-woman-indian-big-tshirt-women-fat-nerd-mexican-213287385.jpg" width="100"/>
+<img src="https://st3.depositphotos.com/1007566/13175/v/450/depositphotos_131750410-stock-illustration-woman-female-avatar-character.jpg" width="100" />
+  <img src="https://img.freepik.com/iconos-gratis/hombre_318-719087.jpg" width="100">
+  <img  src="https://cdn1.iconfinder.com/data/icons/avatar-women/512/Avatar-Women_avatar-woman-short-curly-hair-512.png" width="100" />
+  <div style="background-color: blue">
+    <h3>Hello, world . This is team number 3</h3>
+  </div>
+  
+  </div>
+  
+  - [x] project theme : Agencia de viajes 
+  - [x] repository of github : [Link of github Repo](https://github.com/Mani8217/grupo3_angular/)
+  - [x] trello : [Click here to see angular project trello](https://trello.com/b/Y4TUzjyc/angular-project-group) 
+  
