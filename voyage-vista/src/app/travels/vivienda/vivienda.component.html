@@ -1,0 +1,21 @@
+<div class="container">
+  <div *ngFor="let vivienda of viviendas" class="card">
+
+   <p *ngIf="vivienda.isAvailable">
+      disponible
+    </p>
+    <p *ngIf="!vivienda.isAvailable">
+     reservado
+    </p>
+
+
+
+
+
+   <div class="img-container"> <a routerLink="/playa"><img [src]="vivienda.img" alt="" /></a></div>
+    <div>
+
+      <p>{{vivienda.id}}</p>
+     <h3>{{vivienda.title}}</h3>
+    </div>
+  </div>
