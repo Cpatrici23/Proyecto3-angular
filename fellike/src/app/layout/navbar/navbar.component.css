@@ -1,0 +1,27 @@
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding:40px;
+  background-color: #f1f1f1;
+  position: fixed;
+  top:0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+nav a {
+  font-size: 3vh;
+  text-decoration: none;
+  color: black;
+  border-bottom:2px solid #f1f1f1
+
+
+}
+nav a:hover {
+  border-bottom: 2px solid lightgrey;
+
+}
+nav a:active {
+  border-bottom: 2px solid black
+}
