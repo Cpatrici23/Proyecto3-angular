@@ -2,6 +2,7 @@ import { Injectable } from '@angular/core';
 import { IVivienda } from '../models/vivienda.model';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { IUser } from '../models/user.model';
 
 @Injectable({
   providedIn: 'root'
@@ -28,5 +29,11 @@ filteredByMountainCategory():Observable<IVivienda[]>{
 filteredByTreeHomeCategory():Observable<IVivienda[]>{
   return this.http.get<IVivienda[]>(`${this.url}?category=tree-home`)
 }
+ createNewHome(vivienda: IVivienda): Observable<IVivienda>{
+    return this.http.post<IVivienda>(this.url,  vivienda)
+  }
+  createNewUser(user: IUser): Observable<IUser>{
+    return this.http.post<IUser>(this.url,  user)
+  }
 
 }
